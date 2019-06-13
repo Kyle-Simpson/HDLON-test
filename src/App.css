@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('./fonts/Avenir.ttc');
+}
+
+@font-face {
+  font-family: 'Butler-Black';
+  src: url('./fonts/Butler_Black.otf');
+}
+
+h1, h2 {
+  font-family: 'Butler-Black';
+  color: rgb(217, 78, 79);
+  margin-top:5%;
+}
+
+p {
+  font-family: 'Avenir';
+}
+
+.guide {
+  background-color: rgb(251, 243, 127)
+}
+
+.sectionListContainer {
+  display:none;
+}
+
+.sectionList {
+  display:none;
+}
+
+
+@media only screen and (min-width:600px) {
+  body {
+    margin:5%;
+    margin-left:10%;
+  }
+
+  .card {
+    border:none;
+  }
+
+  .sectionListContainer {
+    display:inline;
+  }
+
+  .sectionList {
+    display:inline;
+    margin-left:-10%;
+  }
+
+  .guide {
+    margin-left:15%;
+  }
+
+}
+
