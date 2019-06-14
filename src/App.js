@@ -14,53 +14,100 @@ function App() {
         y para tener éxito en el trabajo.
       </p>
 
-      <Card className="sectionListContainer">
-        <CardBody>
-          <a href="#start-of-workday" className='sectionList'>Start of the Workday <br></br></a>
-          <a href="#tools-and-materials" className='sectionList'>Gardening Tools & Materials <br></br></a>
-          <a href="#elements-of-garden" className='sectionList'>Elements of the Garden <br></br></a>
-          <a href="#employer-questions" className='sectionList'>Questions for the Employer <br></br></a>
-          <a href="#gardener-instructions" className='sectionList'>Instructions for the Gardener <br></br></a>
-          <a href="#common-tasks" className='sectionList'>Common Gardening Tasks <br></br></a>
-          <a href="#health-and-safety" className='sectionList'>Health and Safety <br></br></a>
-          <a href="#negotiating-pay" className='sectionList'>Negotiating Pay <br></br></a>
-          <a href="#clarification-questions" className='sectionList'>Questions for Clarification <br></br></a>
-        </CardBody>
-      </Card>
+      <div className="smallScreen">
+        <Card className='guide'>
+          <CardTitle>
+            <h2 style={{ 'textAlign': 'center' }}>Cómo usar esta guía</h2>
+          </CardTitle>
+          <CardBody>
+            <Container>
+              <Row style={{ 'textAlign': 'center' }}>
+                <Col xs={{ size: 5 }}>
+                  <b>Inglés</b> <br></br>
+                </Col>
+                <Col xs={{ size: 7 }}>
+                  <b>What will I be doing today?</b> <br></br>
+                </Col>
+              </Row>
+              <Row style={{ 'textAlign': 'center' }}>
+                <Col xs={{ size: 5 }}>
+                  Pronunciación <br></br>
+                </Col>
+                <Col xs={{ size: 7 }}>
+                  [Guat wil ai bi duin tudei] <br></br>
+                </Col>
+              </Row>
+              <Row style={{ 'textAlign': 'center' }}>
+                <Col xs={{ size: 5 }}>
+                  <i>Español</i>
+                </Col>
+                <Col xs={{ size: 7 }}>
+                  <i>¿Qué voy a hacer hoy?</i>
+                </Col>
+              </Row>
+            </Container>
+          </CardBody>
+        </Card>
+      </div>
 
-      <Card className='guide'>
-        <CardTitle>
-          <h2 style={{ 'textAlign': 'center' }}>Cómo usar esta guía</h2>
-        </CardTitle>
-        <CardBody>
-          <Container>
-            <Row style={{ 'textAlign': 'center' }}>
-              <Col xs={{ size: 5 }}>
-                <b>Inglés</b> <br></br>
-              </Col>
-              <Col xs={{ size: 7 }}>
-                <b>What will I be doing today?</b> <br></br>
-              </Col>
-            </Row>
-            <Row style={{ 'textAlign': 'center' }}>
-              <Col xs={{ size: 5 }}>
-                Pronunciación <br></br>
-              </Col>
-              <Col xs={{ size: 7 }}>
-                [Guat wil ai bi duin tudei] <br></br>
-              </Col>
-            </Row>
-            <Row style={{ 'textAlign': 'center' }}>
-              <Col xs={{ size: 5 }}>
-                <i>Español</i>
-              </Col>
-              <Col xs={{ size: 7 }}>
-                <i>¿Qué voy a hacer hoy?</i>
-              </Col>
-            </Row>
-          </Container>
-        </CardBody>
-      </Card>
+      <div className="bigScreen">
+        <Container>
+          <Row>
+            <Col xs={{ size: 4 }}>
+              <Card>
+                <CardBody>
+                  <a href="#start-of-workday">Start of the Workday<br></br></a>
+                  <a href="#tools-and-materials">Gardening Tools & Materials<br></br></a>
+                  <a href="#elements-of-garden">Elements of the Garden<br></br></a>
+                  <a href="#employer-questions">Questions for the Employer<br></br></a>
+                  <a href="#gardener-instructions">Instructions for the Gardener<br></br></a>
+                  <a href="#common-tasks">Common Gardening Tasks<br></br></a>
+                  <a href="#health-and-safety">Health and Safety<br></br></a>
+                  <a href="#negotiating-pay">Negotiating Pay<br></br></a>
+                  <a href="#clarification-questions">Questions for Clarification<br></br></a>
+                </CardBody>
+              </Card>
+            </Col>
+
+            <Col className="bigCol" xs={{ size: 8 }}>
+              <Card className='guide'>
+                <CardTitle>
+                  <h2 style={{ 'textAlign': 'center' }}>Cómo usar esta guía</h2>
+                </CardTitle>
+                <CardBody>
+                  <Container>
+                    <Row style={{ 'textAlign': 'center' }}>
+                      <Col xs={{ size: 5 }}>
+                        <b>Inglés</b> <br></br>
+                      </Col>
+                      <Col xs={{ size: 7 }}>
+                        <b>What will I be doing today?</b> <br></br>
+                      </Col>
+                    </Row>
+                    <Row style={{ 'textAlign': 'center' }}>
+                      <Col xs={{ size: 5 }}>
+                        Pronunciación <br></br>
+                      </Col>
+                      <Col xs={{ size: 7 }}>
+                        [Guat wil ai bi duin tudei] <br></br>
+                      </Col>
+                    </Row>
+                    <Row style={{ 'textAlign': 'center' }}>
+                      <Col xs={{ size: 5 }}>
+                        <i>Español</i>
+                      </Col>
+                      <Col xs={{ size: 7 }}>
+                        <i>¿Qué voy a hacer hoy?</i>
+                      </Col>
+                    </Row>
+                  </Container>
+                </CardBody>
+              </Card>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
 
       <a id="start-of-workday"><h2>Start of the Workday - <i>Inicio del día de trabajo</i></h2></a>
       <Card>

@@ -26,36 +26,31 @@ p {
   background-color: rgb(251, 243, 127)
 }
 
-.sectionListContainer {
-  display:none;
-}
-
-.sectionList {
+.bigScreen {
   display:none;
 }
 
 
 @media only screen and (min-width:600px) {
   body {
-    margin:5%;
     margin-left:10%;
+    margin-right:10%;
   }
 
-  .card {
+  .bigCol {
+    margin-top:2%;
+  }
+
+  .card:first-of-type {
     border:none;
   }
 
-  .sectionListContainer {
-    display:inline;
+  .smallScreen {
+    display:none;
   }
 
-  .sectionList {
+  .bigScreen {
     display:inline;
-    margin-left:-10%;
-  }
-
-  .guide {
-    margin-left:15%;
   }
 
 }
