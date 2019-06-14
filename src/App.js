@@ -109,7 +109,7 @@ function App() {
       </div>
 
 
-      <a id="start-of-workday"><h2>Start of the Workday - <i>Inicio del día de trabajo</i></h2></a>
+      <a id="start-of-workday"><h3>Start of the Workday - <i>Inicio del día de trabajo</i></h3></a>
       <Card>
         <CardBody>
           <Container>
@@ -183,21 +183,21 @@ function App() {
         </CardBody>
       </Card>
 
-      <a id="tools-and-materials"><h2>Gardening Tools & Materials - <i>Herramientas y materiales para jardinería</i></h2></a>
+      <a id="tools-and-materials"><h3>Gardening Tools & Materials - <i>Herramientas y materiales para jardinería</i></h3></a>
 
-      <a id="elements-of-garden"><h2>Elements of the Garden - <i>Elementos en un jardín</i></h2></a>
+      <a id="elements-of-garden"><h3>Elements of the Garden - <i>Elementos en un jardín</i></h3></a>
 
-      <a id="employer-questions"><h2>Questions for the Employer - <i>Preguntas para el/la empleador/a</i></h2></a>
+      <a id="employer-questions"><h3>Questions for the Employer - <i>Preguntas para el/la empleador/a</i></h3></a>
 
-      <a id="gardener-instructions"><h2>Instructions for the Gardener - <i>Instrucciones para el/la jardinero/a</i></h2></a>
+      <a id="gardener-instructions"><h3>Instructions for the Gardener - <i>Instrucciones para el/la jardinero/a</i></h3></a>
 
-      <a id="common-tasks"><h2>Common Gardening Tasks - <i>Tareas comunes de jardinería</i></h2></a>
+      <a id="common-tasks"><h3>Common Gardening Tasks - <i>Tareas comunes de jardinería</i></h3></a>
 
-      <a id="health-and-safety"><h2>Health and Safety - <i>Equipo de seguridad</i></h2></a>
+      <a id="health-and-safety"><h3>Health and Safety - <i>Equipo de seguridad</i></h3></a>
 
-      <a id="negotiating-pay"><h2>Negotiating Pay - <i>Negociación de pago</i></h2></a>
+      <a id="negotiating-pay"><h3>Negotiating Pay - <i>Negociación de pago</i></h3></a>
 
-      <a id="clarification-questions"><h2>Questions for Clarification - <i>Preguntas para aclarar</i></h2></a>
+      <a id="clarification-questions"><h3>Questions for Clarification - <i>Preguntas para aclarar</i></h3></a>
     </div>
   );
 }
