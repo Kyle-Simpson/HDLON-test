@@ -1,5 +1,6 @@
 {
   "name": "temp_website",
+  "homepage":"https://Kyle-Simpson.github.io/ndlon-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
