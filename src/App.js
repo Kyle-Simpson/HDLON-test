@@ -184,6 +184,25 @@ function App() {
       </Card>
 
       <a id="tools-and-materials"><h3>Gardening Tools & Materials - <i>Herramientas y materiales para jardinería</i></h3></a>
+      <Card>
+        <CardImg style={{width:'80%', height:'50vh', 'marginLeft':'auto', 'marginRight':'auto'}}src='./images/garden_rake.png' alt='garden rake'></CardImg>
+        <CardBody>
+          <Container>
+            <Row>
+              <b>Garden rake </b>
+            </Row>
+            <Row>
+              [garden reik]
+            </Row>
+            <Row>
+              <i>rastrillo de jardin</i>
+            </Row>
+            <audio controls>
+              <source src='./audio/mp3/2.j.mp3' type='audio/mp3'></source>
+            </audio>
+          </Container>
+        </CardBody>
+      </Card>
 
       <a id="elements-of-garden"><h3>Elements of the Garden - <i>Elementos en un jardín</i></h3></a>
 
