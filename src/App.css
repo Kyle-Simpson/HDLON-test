@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Avenir';
+}
+
 @font-face {
   font-family: 'Avenir';
   src: url('./fonts/Avenir.ttc');
