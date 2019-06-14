@@ -185,7 +185,7 @@ function App() {
 
       <a id="tools-and-materials"><h3>Gardening Tools & Materials - <i>Herramientas y materiales para jardinería</i></h3></a>
       <Card>
-        <CardImg style={{width:'80%', height:'50vh', 'marginLeft':'auto', 'marginRight':'auto'}}src='./images/garden_rake.png' alt='garden rake'></CardImg>
+        <CardImg style={{width:'80%', height:'50vh', 'marginLeft':'auto', 'marginRight':'auto'}} src='./images/garden_rake.pdf' alt='garden rake' />
         <CardBody>
           <Container>
             <Row>
