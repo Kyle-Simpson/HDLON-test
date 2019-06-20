@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardBody, Container, Row } from 'reactstrap';
+import { Card, CardBody, Container, Row, Button } from 'reactstrap';
 
 export class PlainCard extends Component {
     constructor(props) {
@@ -13,6 +13,7 @@ export class PlainCard extends Component {
     }
 
     render() {
+        var audio = new Audio(this.state.audio)
         return (
             <Card>
                 <CardBody>
@@ -26,9 +27,7 @@ export class PlainCard extends Component {
                         <Row>
                             <i>{this.state.spanish}</i>
                         </Row>
-                        <audio controls>
-                            <source src={this.state.audio} type='audio/mp3'></source>
-                        </audio>
+                        <Button color='primary' onClick={() => audio.play()}>Play</Button>
                     </Container>
                 </CardBody>
             </Card>

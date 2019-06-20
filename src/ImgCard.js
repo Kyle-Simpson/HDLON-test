@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardBody, Container, Row } from 'reactstrap';
+import { Card, CardImg, CardBody, Container, Row, Button } from 'reactstrap';
 
 export class ImgCard extends Component {
     constructor(props) {
@@ -15,9 +15,10 @@ export class ImgCard extends Component {
     }
 
     render() {
+        var audio= new Audio(this.state.audio)
         return (
             <Card>
-                <CardImg style={{ width: '80%', height: '50vh', 'marginLeft': 'auto', 'marginRight': 'auto' }} src={this.state.image} alt={this.state.alt} />
+                <CardImg style={{ width: '50%', height: '50vh', 'marginLeft': 'auto', 'marginRight': 'auto' }} src={this.state.image} alt={this.state.alt} />
                 <CardBody>
                     <Container>
                         <Row>
@@ -29,9 +30,7 @@ export class ImgCard extends Component {
                         <Row>
                             <i>{this.state.spanish}</i>
                         </Row>
-                        <audio controls>
-                            <source src={this.state.audio} type='audio/mp3'></source>
-                        </audio>
+                        <Button color='primary' onClick={() => audio.play()}>Play</Button>
                     </Container>
                 </CardBody>
             </Card>

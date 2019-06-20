@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardTitle, CardBody, Container, Row, Col } from 'reactstrap';
+import { Card, CardTitle, CardBody, Container, Row, Col } from 'reactstrap';
 import { PlainCard } from './PlainCard.js';
 import { ImgCard } from './ImgCard.js';
 import './App.css';
@@ -17,6 +17,19 @@ function App() {
       </p>
 
       <div className="smallScreen">
+        <Card>
+          <CardBody>
+            <a href="#start-of-workday">Start of the Workday<br></br></a>
+            <a href="#tools-and-materials">Gardening Tools & Materials<br></br></a>
+            <a href="#elements-of-garden">Elements of the Garden<br></br></a>
+            <a href="#employer-questions">Questions for the Employer<br></br></a>
+            <a href="#gardener-instructions">Instructions for the Gardener<br></br></a>
+            <a href="#common-tasks">Common Gardening Tasks<br></br></a>
+            <a href="#health-and-safety">Health and Safety<br></br></a>
+            <a href="#negotiating-pay">Negotiating Pay<br></br></a>
+            <a href="#clarification-questions">Questions for Clarification<br></br></a>
+          </CardBody>
+        </Card>
         <Card className='guide'>
           <CardTitle>
             <h2 style={{ 'textAlign': 'center' }}>Cómo usar esta guía</h2>
@@ -51,7 +64,7 @@ function App() {
           </CardBody>
         </Card>
 
-        <h3>Start of the Workday - <i>Inicio del día de trabajo</i></h3>
+        <a id="start-of-workday"><h3>Start of the Workday - <i>Inicio del día de trabajo</i></h3></a>
         <PlainCard english='Good Morning' phonetic='[gud mornin]' spanish='Buenos días' audio='./audio/mp3/1.a.mp3' />
         <PlainCard english='I’m ___________. I am a worker from ____________. Nice to meet  you.'
           phonetic='[aim ___________. Aim a wurker fram __________. Nais tu mit yu]'
@@ -62,7 +75,7 @@ function App() {
         <PlainCard english='What type of gardening work do you need done?' phonetic='[Guat taip of gardenin work du yu nid dan]'
           spanish='¿Qué trabajo necesita hacer en el jardin?' audio='./audio/mp3/1.d.mp3' />
 
-        <h3>Gardening Tools & Materials - <i>Herramientas y materiales para jardinería</i></h3>
+        <a id="tools-and-materials"><h3>Gardening Tools & Materials - <i>Herramientas y materiales para jardinería</i></h3></a>
         <PlainCard english='Do you have ____________ ?' phonetic='[Du yu jav] ____________' spanish='¿Usted tiene ____________ ?'
           audio='./audio/mp3/2.a.mp3' />
         <PlainCard english='Can I have a ______________ ?' phonetic='[Can ai jav] ______________ ?' spanish='¿Puedo tener _____________?'
@@ -113,19 +126,19 @@ function App() {
 
 
 
-        <h3>Elements of the Garden - <i>Elementos en un jardín</i></h3>
+        <a id="elements-of-garden"><h3>Elements of the Garden - <i>Elementos en un jardín</i></h3></a>
 
-        <h3>Questions for the Employer - <i>Preguntas para el/la empleador/a</i></h3>
+        <a id="employer-questions"><h3>Questions for the Employer - <i>Preguntas para el/la empleador/a</i></h3></a>
 
-        <h3>Instructions for the Gardener - <i>Instrucciones para el/la jardinero/a</i></h3>
+        <a id="gardener-instructions"><h3>Instructions for the Gardener - <i>Instrucciones para el/la jardinero/a</i></h3></a>
 
-        <h3>Common Gardening Tasks - <i>Tareas comunes de jardinería</i></h3>
+        <a id="common-tasks"><h3>Common Gardening Tasks - <i>Tareas comunes de jardinería</i></h3></a>
 
-        <h3>Health and Safety - <i>Equipo de seguridad</i></h3>
+        <a id="health-and-safety"><h3>Health and Safety - <i>Equipo de seguridad</i></h3></a>
 
-        <h3>Negotiating Pay - <i>Negociación de pago</i></h3>
+        <a id="negotiating-pay"><h3>Negotiating Pay - <i>Negociación de pago</i></h3></a>
 
-        <h3>Questions for Clarification - <i>Preguntas para aclarar</i></h3>
+        <a id="clarification-questions"><h3>Questions for Clarification - <i>Preguntas para aclarar</i></h3></a>
 
       </div>
 
