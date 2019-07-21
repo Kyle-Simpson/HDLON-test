@@ -125,19 +125,19 @@ function App() {
           spanish='bolsas para la basura del jardín' audio='./audio/mp3/2.v.mp3' />
 
         <a id="elements-of-garden"><h3>Elements of the Garden - <i>Elementos en un jardín</i></h3></a>
-        <ImgCard image='./images/flower.pdf' alt='flower' english='Flower' phonetic='[flauer]' spanish='flor' audio='./audio/mp3/.mp3' />
-        <ImgCard image='./images/stem.pdf' alt='stem' english='Stem' phonetic='[stem]' spanish='tallo' audio='./audio/mp3/.mp3' />
+        <ImgCard image='./images/flower.pdf' alt='flower' english='Flower' phonetic='[flauer]' spanish='flor' audio='./audio/mp3/3.c.mp3' />
+        <ImgCard image='./images/stem.pdf' alt='stem' english='Stem' phonetic='[stem]' spanish='tallo' audio='./audio/mp3/3.e.mp3' />
         <ImgCard image='./images/shrub.pdf' alt='bush/shrub' english='Bush / Shrub' phonetic='[bush] / [shrab]' spanish='arbusto' 
-          audio='./audio/mp3/.mp3' />
-        <ImgCard image='./images/tree.pdf' alt='tree' english='Tree' phonetic='[tri]' spanish='árbol' audio='./audio/mp3/.mp3' />
+          audio='./audio/mp3/3.b.mp3' />
+        <ImgCard image='./images/tree.pdf' alt='tree' english='Tree' phonetic='[tri]' spanish='árbol' audio='./audio/mp3/3.a.mp3' />
         <ImgCard image='./images/leaf.pdf' alt='leaf' english='Leaf' phonetic='[lif]' spanish='hoja' audio='./audio/mp3/.mp3' />
-        <ImgCard image='./images/branch.pdf' alt='branch' english='Branch' phonetic='[branch]' spanish='rama' audio='./audio/mp3/.mp3' />
+        <ImgCard image='./images/branch.pdf' alt='branch' english='Branch' phonetic='[branch]' spanish='rama' audio='./audio/mp3/3.f.mp3' />
         <ImgCard image='./images/trunk.pdf' alt='trunk' english='Trunk' phonetic='[trank]' spanish='tronco' audio='./audio/mp3/.mp3' />
         <ImgCard image='./images/roots.pdf' alt='roots' english='Roots' phonetic='[ruts]' spanish='raíces' audio='./audio/mp3/.mp3' />
         <ImgCard image='./images/wood_chips.pdf' alt='wood chips' english='Wood Chips' phonetic='[uod chips]' spanish='astillas de madera' 
           audio='./audio/mp3/.mp3' />
         <ImgCard image='./images/gravel.pdf' alt='gravel' english='Gravel' phonetic='[gravel]' spanish='grava' audio='./audio/mp3/.mp3' />
-        <ImgCard image='./images/weed.pdf' alt='weed' english='Weed' phonetic='[wid]' spanish='hierba' audio='./audio/mp3/.mp3' />
+        <ImgCard image='./images/weed.pdf' alt='weed' english='Weed' phonetic='[wid]' spanish='hierba' audio='./audio/mp3/3.d.mp3' />
         <ImgCard image='./images/grass.pdf' alt='grass' english='Grass' phonetic='[gras]' spanish='césped /grama hierba' 
           audio='./audio/mp3/.mp3' />
         <ImgCard image='./images/topsoil.pdf' alt='topsoil' english='Top Soil' phonetic='[tap soyel]' spanish='capa superior del suelo' 
@@ -478,18 +478,380 @@ function App() {
         </Row>
 
         <a id="ElementsOfGarden"><h3>Elements of the Garden - <i>Elementos en un jardín</i></h3></a>
+        <Row>
+          <Col>
+            <ImgCard image='./images/flower.pdf' alt='flower' english='Flower' phonetic='[flauer]' spanish='flor' audio='./audio/mp3/3.c.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/stem.pdf' alt='stem' english='Stem' phonetic='[stem]' spanish='tallo' audio='./audio/mp3/3.e.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/shrub.pdf' alt='bush/shrub' english='Bush / Shrub' phonetic='[bush] / [shrab]' spanish='arbusto' 
+              audio='./audio/mp3/3.b.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/tree.pdf' alt='tree' english='Tree' phonetic='[tri]' spanish='árbol' audio='./audio/mp3/3.a.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/leaf.pdf' alt='leaf' english='Leaf' phonetic='[lif]' spanish='hoja' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/branch.pdf' alt='branch' english='Branch' phonetic='[branch]' spanish='rama' audio='./audio/mp3/3.f.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/trunk.pdf' alt='trunk' english='Trunk' phonetic='[trank]' spanish='tronco' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/roots.pdf' alt='roots' english='Roots' phonetic='[ruts]' spanish='raíces' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/wood_chips.pdf' alt='wood chips' english='Wood Chips' phonetic='[uod chips]' spanish='astillas de madera' 
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/gravel.pdf' alt='gravel' english='Gravel' phonetic='[gravel]' spanish='grava' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/weed.pdf' alt='weed' english='Weed' phonetic='[wid]' spanish='hierba' audio='./audio/mp3/3.d.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/grass.pdf' alt='grass' english='Grass' phonetic='[gras]' spanish='césped /grama hierba' 
+              audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/topsoil.pdf' alt='topsoil' english='Top Soil' phonetic='[tap soyel]' spanish='capa superior del suelo' 
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/compost.pdf' alt='compost' english='Compost' phonetic='[campost]' spanish='abono' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/subsoil.pdf' alt='subsoil' english='Sub Soil' phonetic='[sab soyel]' spanish='subsuelo' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/bedrock.pdf' alt='bedrock' english='Bedrock' phonetic='[bed rak]' spanish='roca de fondo' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
 
         <a id="EmployerQuestions"><h3>Questions for the Employer - <i>Preguntas para el/la empleador/a</i></h3></a>
+        <Row>
+          <Col>
+            <PlainCard english='Where do you want me to work first?' phonetic='[Uer du yu juant mi tu uork furst?]' spanish='¿Dónde quiere que empiece a trabajar?'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Can you show me which ones are weeds, and which ones are plants?' 
+              phonetic='[Can yu sho mi uich uans ar widz, and uich uans ar plantz?]' spanish='¿Puede mostrarme cuáles son hierbas,
+              y cuáles son plantas?' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Do you want me to save these plants?' phonetic='[du yu juant mi tu seiv dis plants]' 
+              spanish='¿Quieres que guarde estas plantas?' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Where should I put them?' phonetic='[juer shud ai put dem]' spanish='¿Dónde las pongo?'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Can I take out these weeds?' phonetic='[Can ai teik aut diz widz?]' spanish='¿Puedo sacar estas hierbas?'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Where should I leave the yard waste?' phonetic='[Uer shud ai liv tha yard uest?]' 
+              spanish='¿Dónde puedo dejar la basura del jardín?' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Which trash bin can I use?' phonetic='[Uich trash bin can ai iuz?]' spanish='¿Cuál basurero debo usar?'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Do you have a compost pile?' phonetic='[du yu hav a campost pail]' spanish='¿Tiene un bote para la basura orgánica?'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='How short do you want the grass?' phonetic='[Jao short du yu uant tha gras?]' spanish='¿Qué tan corto quiere el pasto?'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='The lawnmower is broken.' phonetic='[da lan moer es broken]' spanish='El cortacésped/podadora no funciona.'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='The weed eater needs gas.' phonetic='[da wid iter nids gas]' spanish='La deshierbadora necesita gasolina.'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='How far apart should I set the plants?' phonetic='[jao far apart shud ay set da plants]' 
+              spanish='¿A qué distancia una del otra pongo las plantas?' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Can you mark where to put the plants?' phonetic='[can yu mark juer tu put da plants]' 
+              spanish='¿Puede marcar dónde debo poner las plan- tas?' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Do you have any extra pots?' phonetic='[du yu hav eni extra pats]' spanish='¿Tiene usted macetas extras?'
+              audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Do you want me to use fertilizer?' phonetic='[du yu juant mi tu yus fertilaiser]' 
+              spanish='¿Quiere que use fertilizante?' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Where should I put the tools when I am finished?' phonetic='[juer shud ai put da tuls juen ai am finished]' 
+              spanish='¿En donde puedo poner las herramientas cuando termine?' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
 
         <a id="GardenerInstructions"><h3>Instructions for the Gardener - <i>Instrucciones para el/la jardinero/a</i></h3></a>
+        <Row>
+          <Col>
+            <PlainCard english='Spread the wood chips.' phonetic='[Spred tha uod chips]' spanish='Esparza las astillas de madera.' 
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Take out these weeds.' phonetic='[Tek aut diz uidz]' spanish='Quite estas hierbas.' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Leave these plants.' phonetic='[Liv diz plants]' spanish='Deje estas plantas.' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Leave the waste here.' phonetic='[Liv tha uest gíer]' spanish='Ponga la basura aquí.' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Move the dirt here.' phonetic='[Muv tha durt gíer]' spanish='Mueva la tierra aquí.' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Dig a trench.' phonetic='[Dig a trench.]' spanish='Escarbe una zanja.' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Rake the soil.' phonetic='[Rek tha soil]' spanish='Rastrille la tierra.' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Water the plants.' phonetic='[juader tha plants]' spanish='Riegue las plantas.' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Till the soil first.' phonetic='[Til tha soil furst]' spanish='Revuelve la tierra primero.' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            
+          </Col>
+        </Row>
 
         <a id="CommonTasks"><h3>Common Gardening Tasks - <i>Tareas comunes de jardinería</i></h3></a>
+        <Row>
+          <Col>
+            <ImgCard image='./images/dig.pdf' alt='dig' english='Dig' phonetic='[deg]' spanish='escarbar' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/till.pdf' alt='till' english='Till' phonetic='[til]' spanish='labrar' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/rake.pdf' alt='rake' english='Rake' phonetic='[reik]' spanish='rastrillar' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/mow.pdf' alt='mowing' english='Mow the lawn' phonetic='[mo da lan]'
+              spanish='recortar el césped/pasto' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/prune.pdf' alt='prune' english='Prune' phonetic='[prun]' spanish='podar/cortar' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/hedge.pdf' alt='trim hedge' english='Trim the hedge' phonetic='[trim tha hedch]'
+              spanish='recortar el arbusto' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/deadhead.pdf' alt='dead head' english='Dead head' phonetic='[ded jed]'
+              spanish='podar las flores marchitas' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/plant.pdf' alt='plant' english='Plant' phonetic='[plant]' spanish='plantar' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/watering.pdf' alt='water' english='Water' phonetic='[uáder]' spanish='regar' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/transplant.pdf' alt='transplant' english='Transplant' phonetic='[transplant]'
+              spanish='trasplantar' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/moving.pdf' alt='move' english='Move' phonetic='[muv]'
+              spanish='mover' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/remove.pdf' alt='remove' english='Remove' phonetic='[rimuv]'
+              spanish='quitar' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/takeout.pdf' alt='take out' english='Take out' phonetic='[tek aut]'
+              spanish='sacar' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/weeding.pdf' alt='weeding' english='Weeding' phonetic='[uidin]' spanish='deshierbar' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/spread.pdf' alt='spread' english='Spread' phonetic='[spred]' spanish='esparcir' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            
+          </Col>
+        </Row>
 
         <a id="HealthAndSafety"><h3>Health and Safety - <i>Equipo de seguridad</i></h3></a>
+        <Row>
+          <Col>
+            <PlainCard english='I need ____________ .' phonetic='[ai nid]' spanish='Yo necesito __________.' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='I can’t work without __________.' phonetic='I can’t work without .' spanish='No puedo trabajar sin __________.' 
+              audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/earplugs.pdf' alt='ear plugs' english='Ear Plugs' phonetic='[ir plogs]' spanish='tapones para los oídos' 
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/ear_protection.pdf' alt='ear protection' english='Ear Protection' phonetic='[íer protekchon]' 
+              spanish='protección para los oídos' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/boots.pdf' alt='boots' english='Boots' phonetic='[buts]' spanish='botas' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/dust_mask.pdf' alt='dust mask' english='Dust Mask' phonetic='[dost mask]' 
+              spanish='máscara para proteger contra el polvo' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/respirator.pdf' alt='respirator' english='Respirator' phonetic='[respereiter]' spanish='respirador' 
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/gloves.pdf' alt='gloves' english='Gloves' phonetic='[glovs]' spanish='guantes' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <ImgCard image='./images/goggles.pdf' alt='goggles' english='Goggles' phonetic='[gágelz]' spanish='gafas protectoras' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <ImgCard image='./images/safety_glasses.pdf' alt='safety glasses' english='Safety Glasses' phonetic='[sefti glásez]' 
+              spanish='lentes protectores' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
 
         <a id="NegotiatingPay"><h3>Negotiating Pay - <i>Negociación de pago</i></h3></a>
+        <Row>
+          <Col>
+            <PlainCard english='I charge $20 an hour.' phonetic='[Ai charch twenti an auer.]' spanish='Cobro $20 la hora.' 
+              audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='I charge $19 an hour for weeding.' phonetic='[ai charch nain-tin an auer for widin]' 
+              spanish='Cobro $19 la hora por deshierbar.' audio='./audio/mp3/.mp3' /> 
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='I charge $21 an hour for digging.' phonetic='[ai charch twenti juon an auer for deguing]' 
+              spanish='Cobro $20 la hora por escarbar.' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='I charge $22 an hour for landscaping.' phonetic='[ai charch twenti tu an auer for land skeiping.]' 
+              spanish='Cobro $22 la hora por jardineria avanzada.' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='I prefer cash.' phonetic='[ai prefer cash]' spanish='Prefiero efectivo.' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='I require a minimum of five hours of work.' phonetic='[ai ricuayer a minimam af faiv auers af wurk]' 
+              spanish='Yo requiero un mínimo de cinco horas de trabajo.' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
 
         <a id="ClarificationQuestions"><h3>Questions for Clarification - <i>Preguntas para aclarar</i></h3></a>
+        <Row>
+          <Col>
+            <PlainCard english='Excuse me?' phonetic='[Ecskiuz mi?]' spanish='¿Discúlpeme? ¿Perdón?' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Could you repeat that?' phonetic='[Cud yu ripit that?]' spanish='¿Puede repetir eso?' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='I am confused.' phonetic='[ai em canfyust]' spanish='Estoy confundido/a' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            <PlainCard english='Can you show me?' phonetic='[can yu sho mi]' spanish='¿Puede mostrarme?' audio='./audio/mp3/.mp3' />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <PlainCard english='Please show me exactly what you want, because I don’t understand.' 
+              phonetic='[Plis sho mi eczactli uat yu juant, bicoz ai dont ondorstand.]' 
+              spanish='Por favor muéstreme exactamente lo que quiere, porque no entiendo.' audio='./audio/mp3/.mp3' />
+          </Col>
+          <Col>
+            
+          </Col>
+        </Row>
 
       </div>
 
