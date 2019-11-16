@@ -115,7 +115,7 @@ function App() {
         <ImgCard image='./images/nozzle.pdf' alt='nozzle' english='Nozzle' phonetic='[nahsel]' spanish='boquilla'
           audio='./audio/mp3/2.s.mp3' />
         <ImgCard image='./images/watering_can.pdf' alt='watering can' english='Watering can' phonetic='[uádering can]'
-          spanish='bote para regar' audio='./audio/mp3/' />
+          spanish='bote para regar' audio='./audio/mp3/.mp3' />
         <ImgCard image='./images/hose.pdf' alt='hose' english='Hose' phonetic='[joz]' spanish='manguera' audio='./audio/mp3/2.r.mp3' />
         <ImgCard image='./images/plastic_bag.pdf' alt='plastic bag' english='Plastic bag' phonetic='[plástic bag]'
           spanish='bolsa de plástico' audio='./audio/mp3/2.u.mp3' />
@@ -454,7 +454,7 @@ function App() {
           </Col>
           <Col>
             <ImgCard image='./images/watering_can.pdf' alt='watering can' english='Watering can' phonetic='[uádering can]'
-              spanish='bote para regar' audio='./audio/mp3/' />
+              spanish='bote para regar' audio='./audio/mp3/.mp3' />
           </Col>
         </Row>
         <Row>

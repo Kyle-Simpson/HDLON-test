@@ -1,14 +1,14 @@
 {
   "name": "temp_website",
-  "homepage":"https://Kyle-Simpson.github.io/ndlon-test",
+  "homepage": "https://Kyle-Simpson.github.io/ndlon-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "gh-pages": "^2.0.1",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "gh-pages": "^2.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-scripts": "3.0.1",
-    "reactstrap": "^8.0.0"
+    "reactstrap": "^8.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
